@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/trhacknon/govalidator"
+	"github.com/asaskevich/govalidator"
 	"github.com/trhacknon/dnstake/internal/errors"
 )
 
