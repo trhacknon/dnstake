@@ -15,7 +15,7 @@ DNS takeover vulnerabilities occur when a subdomain (subdomain.example.com) or d
 
 ### from Binary
 
-The ez way! You can download a pre-built binary from [releases page](https://github.com/pwnesia/dnstake/releases), just unpack and run!
+The ez way! You can download a pre-built binary from [releases page](https://github.com/trhacknon/dnstake/releases), just unpack and run!
 
 ### from Source
 
@@ -26,7 +26,7 @@ The ez way! You can download a pre-built binary from [releases page](https://git
 Very quick & clean!
 
 ```bash
-▶ go install github.com/pwnesia/dnstake/cmd/dnstake@latest
+▶ go install github.com/trhacknon/dnstake/cmd/dnstake@latest
 ```
 
 #### — or
@@ -34,7 +34,7 @@ Very quick & clean!
 Manual building executable from source code:
 
 ```bash
-▶ git clone https://github.com/pwnesia/dnstake
+▶ git clone https://github.com/trhacknon/dnstake
 ▶ cd dnstake/cmd/dnstake
 ▶ go build .
 ▶ (sudo) mv dnstake /usr/local/bin
@@ -51,7 +51,7 @@ $ dnstake -h
   ██. ██ ██▐█▌▐█▄▪▐█▐█▌·▐█ ▪▐▌▐█.█▌▐█▄▄▌
   ▀▀▀▀▀• ▀▀ █▪ ▀▀▀▀ ▀▀▀  ▀  ▀ ·▀  ▀ ▀▀▀
 
-        (c) pwnesia.org — v0.0.1
+   BY trhacknon (c) pwnesia.org — v0.0.1
 
 Usage:
   [stdin] | dnstake [options]
@@ -76,11 +76,11 @@ Examples:
 
 **DNSTake** use [RetryableDNS client library](https://github.com/projectdiscovery/retryabledns) to send DNS queries. Initial engagement using Google & Cloudflare DNS as the resolver, then check & fingerprinting the nameservers of target host — if there is one, it will resolving the target host again with its nameserver IPs as resolver, if it gets weird DNS status response (other than `NOERROR`/`NXDOMAIN`), then it's vulnerable to be taken over. More or less [like this](https://0xpatrik.com/content/images/2018/08/ns_automation-2.png) in form of a diagram.
 
-Currently supported DNS providers, see [here](https://github.com/indianajson/can-i-take-over-dns/blob/97104102c8ce911fd978521c703f26e1c547c613/README.md#dns-providers).
+Currently supported DNS providers, see [here](https://github.com/trhacknon/can-i-take-over-dns/blob/97104102c8ce911fd978521c703f26e1c547c613/README.md#dns-providers).
 
 ## References
 
-- [1] https://github.com/indianajson/can-i-take-over-dns#what-is-a-dns-takeover
+- [1] https://github.com/trhacknon/can-i-take-over-dns#what-is-a-dns-takeover
 - https://0xpatrik.com/subdomain-takeover-ns/
 
 ## License
