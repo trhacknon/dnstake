@@ -3,7 +3,7 @@ package runner
 import (
 	"github.com/trhacknon/dnstake/internal/executor"
 	"github.com/trhacknon/dnstake/internal/option"
-	"github.com/trhacknon/sizedwaitgroup"
+	"github.com/remh/sizedwaitgroup"
 )
 
 // New of program runner
