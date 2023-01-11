@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/trhacknon/aurora"
+	"github.com/logrusorgru/aurora"
 )
 
 func showBanner() {
