@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/logrusorgru/aurora"
+	"github.com/trhacknon/aurora"
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/retryabledns"
-	"github.com/pwnesia/dnstake/internal/errors"
-	"github.com/pwnesia/dnstake/internal/option"
-	"github.com/pwnesia/dnstake/pkg/dnstake"
-	"github.com/pwnesia/dnstake/pkg/fingerprint"
+	"github.com/trhacknon/dnstake/internal/errors"
+	"github.com/trhacknon/dnstake/internal/option"
+	"github.com/trhacknon/dnstake/pkg/dnstake"
+	"github.com/trhacknon/dnstake/pkg/fingerprint"
 )
 
 // New to execute target hostname
