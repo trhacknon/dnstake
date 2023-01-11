@@ -1,9 +1,9 @@
 package runner
 
 import (
-	"github.com/pwnesia/dnstake/internal/executor"
-	"github.com/pwnesia/dnstake/internal/option"
-	"github.com/remeh/sizedwaitgroup"
+	"github.com/trhacknon/dnstake/internal/executor"
+	"github.com/trhacknon/dnstake/internal/option"
+	"github.com/trhacknon/sizedwaitgroup"
 )
 
 // New of program runner
