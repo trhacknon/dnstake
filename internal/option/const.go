@@ -2,7 +2,7 @@ package option
 
 const (
   version = "0.1.1"
-  author  = "pwnesia.org"
+  author  = "Trhacknon"
   banner  = `
   ·▄▄▄▄   ▐ ▄ .▄▄ ·▄▄▄▄▄ ▄▄▄· ▄ •▄ ▄▄▄ .
   ██▪ ██ •█▌▐█▐█ ▀.•██  ▐█ ▀█ █▌▄▌▪▀▄.▀·
