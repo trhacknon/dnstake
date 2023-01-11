@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/asaskevich/govalidator"
-	"github.com/pwnesia/dnstake/internal/errors"
-	"github.com/pwnesia/dnstake/internal/option"
+	"github.com/trhacknon/govalidator"
+	"github.com/trhacknon/dnstake/internal/errors"
+	"github.com/trhacknon/dnstake/internal/option"
 )
 
 func validate(opt *option.Options) error {
